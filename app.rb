@@ -5,19 +5,19 @@ require_relative "lib/transaction"
 
 # PRODUCTS
 
-<<<<<<< HEAD
+
 Product.new(title: "LEGO Iron Man vs. Ultron", price: 22.99, stock: 55)
 Product.new(title: "Nano Block Empire State Building", price: 49.99, stock: 12)
 Product.new(title: "LEGO Firehouse Headquarter", price: 199.99, stock: 0)
 
 puts Product.all.count # Should return 3
-=======
+
 # Product.new(title: "LEGO Iron Man vs. Ultron", price: 22.99, stock: 55)
 # Product.new(title: "Nano Block Empire State Building", price: 49.99, stock: 12)
 # Product.new(title: "LEGO Firehouse Headquarter", price: 199.99, stock: 0)
 
 # puts Product.all.count # Should return 3
->>>>>>> 14c21e10423a3f57bf17931b8ccdd803e240d5d1
+
 
 # Product.new(title: "LEGO Iron Man vs. Ultron", price: 22.99, stock: 55)
 # Should return DuplicateProductError: 'LEGO Iron Man vs. Ultron' already exists.
