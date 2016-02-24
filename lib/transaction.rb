@@ -20,6 +20,17 @@ class Transaction
 		end
 	end
 
+	def self.find(id)
+		all.each do |transaction|
+			if transaction.id == id then
+				return transaction
+			else 
+				"#{id} does not exist"
+			end
+		end
+	end
+
+
 	private
 
 	def add_to_transactions
