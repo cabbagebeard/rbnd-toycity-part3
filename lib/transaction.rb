@@ -30,6 +30,11 @@ class Transaction
 		end
 	end
 
+	def self.return(id)
+		transaction = find(id)
+		all.delete(transaction)
+		transaction.product.stock += 1
+	end
 
 	private
 

@@ -29,6 +29,10 @@ class Customer
 		end
 	end
 
+	def return_item(id)
+		Transaction.return(id)
+	end
+
 	private
 
 	def add_to_customers
