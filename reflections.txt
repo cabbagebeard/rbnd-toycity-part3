@@ -1,0 +1,14 @@
+Q1.  How long did you spend working on this project?
+  A1.  About 4 hours, I believe.
+
+
+Q2.  What was the most rewarding challenge you conquered?
+  A2.  After I figured out how to correctly utilize the in_stock method and the @@in_stock class variable array (is that a real term?), it was so rewarding because I just kicked into gear and sailed smoothly through the rest of the project.
+
+
+Q3.  What two additional features did you build? Why?
+  A3(a). Giving the customer the ability to return an ite, because this isn't Caveat Emptor Capitalism!
+  A3(b). Listing the purchases (and their ID's and titles), how else are you going to return things without a real receipt? 
+
+Q4.  Where do you still have room to grow?
+  A4.  I need to work on my eloquence a bit more. And my sloppy typing; I made a lot of stupid typing errors throughout this project, it took me a while to figure out why my 'initalize' method wasn't working!
