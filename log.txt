@@ -1,0 +1,132 @@
+commit f9837100293b3e6513ecd117f73a3a5a3f34e69e
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 23:20:19 2016 -0600
+
+    Added reflections.txt
+
+commit e924ffd62307fa30bd6c74d59b7047d6580aa588
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 23:08:03 2016 -0600
+
+    Added purchases method that shows a customer's purchase history
+
+commit fd8422a18b1641506e3a604a9d4819d14e23ab50
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 22:29:03 2016 -0600
+
+    Added return_item method
+
+commit b1ed78540e076c1758a0df364e15291bdde0e7aa
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 22:04:15 2016 -0600
+
+    Added find method
+
+commit f0c3a67369d012dcbd1b4809a22c3552cd36d1f7
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 22:01:44 2016 -0600
+
+    added purchase functionality
+
+commit 2227d8fb2d840f3fc7a39b3acbfdb89fd0072c87
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 21:32:17 2016 -0600
+
+    Add Transaction class and basic initialize
+
+commit 585c66aff606ac25c780286d5c7e6e7df708c68d
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 21:20:39 2016 -0600
+
+    Created find_by_name method
+
+commit 6961ea95caedbd939c48a98b4e87834e3e06e2c3
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 20:51:19 2016 -0600
+
+    Set up initalialize for Customer class, along with DuplicateCustomerError
+
+commit 084ba26c5abdb44888d534188f0497dd0090d5e6
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 20:37:25 2016 -0600
+
+    Put DuplicateProductError to use.
+
+commit 7b6ff8f29ed0aee7cad850a8ae9d540a8c22225a
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 23 20:19:00 2016 -0600
+
+    Fixed in_stock
+
+commit bbde10650ec0e7932ada9f8c132279f2ec126521
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Wed Feb 17 22:54:11 2016 -0600
+
+    Added in_stock array, but cannot figure out include?. Too tired. Tomorrow.
+
+commit f38bc2cef88806b03df6e8864948e3dc6a860a24
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Wed Feb 17 22:11:18 2016 -0600
+
+    Added find_by_title and in_stock?
+
+commit cfd4b3435aaeccd061a409ef1f7155996d1c3426
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 16 21:59:35 2016 -0600
+
+    Add ability to create and count products
+
+commit 110603dd986fccb87478ed5d08a6a8c73dfbba95
+Merge: 70e4448 14c21e1
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 16 21:57:55 2016 -0600
+
+    Add ability to create and count products
+
+commit 70e44482bd595c5f84a46fc2acd9731a63e65bc9
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 16 21:55:45 2016 -0600
+
+    Add ability to create and count products
+
+commit 399108aa55e180dca1ad4a731a0c6114d536ccd5
+Author: Kevin Windisch <kwindisch1992@gmail.com>
+Date:   Tue Feb 16 21:35:38 2016 -0600
+
+    Init Commit
+
+commit 14c21e10423a3f57bf17931b8ccdd803e240d5d1
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Tue Jan 12 01:23:47 2016 -0800
+
+    Output return values to the command line
+
+commit 50ecd4c9f92a4a76d414cb22a39a25c34e902525
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Fri Jan 8 12:02:31 2016 -0800
+
+    Removed zip file requirement
+
+commit f500dd1d9d903c1b9d49b3c9665f6a011616c546
+Author: Julia Van Cleve <julia@jmv.me>
+Date:   Thu Jan 7 09:04:43 2016 -0800
+
+    Fixed typo
+
+commit 1557be82014b78b0773f8f7bc129712e3a324286
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Wed Jan 6 02:17:14 2016 -0500
+
+    Fix typos
+
+commit ec4113db8edbd9c69e15dc85b21875c3472ca3fa
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Tue Jan 5 23:12:59 2016 -0500
+
+    Add LICENSE
+
+commit 1e66c23ba283ea433767f58d9a9e796282046d5c
+Author: Walter Latimer <walter@walterlatimer.com>
+Date:   Tue Jan 5 23:09:18 2016 -0500
+
+    Initial commit
