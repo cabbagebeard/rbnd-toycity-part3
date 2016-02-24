@@ -20,7 +20,7 @@ class Product
 		all.each do |product|
 			if product.title == title then
 				return product
-			else #raise NoProductError,
+			else 
 				"#{title} does not exist"
 			end
 		end
@@ -34,20 +34,18 @@ class Product
 		@@in_stock
 	end
 
-	#### DOESN'T WORK AND I DON'T KNOW WHY. FIGURE IT OUT ####
-	#def include?(product)
-	#	product.in_stock?
-	#end
-
 	private
 
 	def add_to_products
-		#if @title == title in @@products, raise DuplicateProductError
+		for product in @@products
+			if product.title == @title
+				raise DuplicateProductError, "#{@title} already exists."
+			end
+		end
 		@@products << self
 	end
 
 	def add_to_in_stock
 		@@in_stock << self
 	end
-
 end
