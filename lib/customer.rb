@@ -8,6 +8,7 @@ class Customer
 
 	def initialize(options={})
 		@name = options[:name]
+		@purchases = []
 		add_to_customers
 	end
 
@@ -31,6 +32,10 @@ class Customer
 
 	def return_item(id)
 		Transaction.return(id)
+	end
+
+	def purchases
+		Transaction.purchases_by(self)
 	end
 
 	private

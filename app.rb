@@ -58,14 +58,16 @@ puts nanoblock.stock # Should return 11
 
 puts walter.purchase(nanoblock)
 
+puts nanoblock.stock # Should be 10
+
 puts Transaction.all.count # Should return 2
 
 transaction2 = Transaction.find(2)
 puts transaction2.product == nanoblock # Should return true
 
-puts nanoblock.stock # Should return 10
+walter.purchases # Should show walter's purchases
 
-walter.return_item(2)
+walter.return_item(2) 
 
 puts nanoblock.stock # Should return 11
 

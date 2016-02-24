@@ -21,11 +21,9 @@ class Transaction
 	end
 
 	def self.find(id)
-		all.each do |transaction|
+		all.map do |transaction|
 			if transaction.id == id then
 				return transaction
-			else 
-				"#{id} does not exist"
 			end
 		end
 	end
@@ -34,6 +32,16 @@ class Transaction
 		transaction = find(id)
 		all.delete(transaction)
 		transaction.product.stock += 1
+	end
+
+	def self.purchases_by(customer)
+		all.each do |transaction|
+			if transaction.customer == customer 
+				puts "Transaction ID: #{transaction.id}    Title: #{transaction.product.title}\n"
+			else 
+				raise NoTransactionFoundError, "No transactions found for #{customer}"
+			end
+		end
 	end
 
 	private
