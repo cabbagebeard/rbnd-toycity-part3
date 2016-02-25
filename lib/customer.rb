@@ -43,7 +43,7 @@ class Customer
 	def add_to_customers
 		for customer in @@customers
 			if customer.name == @name
-				raise DuplicateCustomerError, "#{@title} already exists."
+				raise DuplicateCustomerError, "#{@name} already exists."
 			end
 		end
 		@@customers << self

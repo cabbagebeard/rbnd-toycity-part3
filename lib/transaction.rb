@@ -1,5 +1,5 @@
 class Transaction
-	attr_accessor :id, :product, :customer
+	attr_reader :id, :product, :customer
 
 	@@id_generator = 0
 	@@transactions = []
