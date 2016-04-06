@@ -7,7 +7,7 @@ class Product
 	def self.all
 		@@products
 	end
-
+	
 	def initialize(options={})
 		@title = options[:title]
 		@price = options[:price]
